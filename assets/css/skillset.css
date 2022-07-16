@@ -5,6 +5,13 @@
     margin: 1rem;
 }
 
+@media only screen and (max-width: 500px){ 
+  #skillset > div{
+  grid-template-columns: 1fr 1fr;
+
+  }
+} 
+
 #skillset img {
   border-radius: 1rem;
   max-width: 7rem;
